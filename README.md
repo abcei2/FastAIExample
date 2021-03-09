@@ -20,7 +20,7 @@ Installation
 ```
   sudo apt-get install python3 python3-pip
   pip install -r requeriments.txt
-  **CUDA 11.0**
+  #CUDA 11.0
   pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
 ```
 **REF:**https://pytorch.org/get-started/previous-versions/
@@ -36,6 +36,7 @@ Installation
 
 #### Train: 
 
+On train_model.py we have this main path and variables.  
 
 ```
 path = untar_data(URLs.CAMVID,dest="./dataset/")
@@ -53,7 +54,9 @@ get_y_fn = lambda x: path_lbl/f'{x.stem}_P{x.suffix}'
 **codes:**  path to *codes.txt* which have all class names.  
 **get_y_fn:** lambda function that maps, path_img images with path_lbl mask images.  
 
-
+```
+python train_model.py
+```
 ### Hardware requeriments
 
 #### Train: 
