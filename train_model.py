@@ -4,6 +4,7 @@ import os
 import shutil
 #URLs.CAMVID Download camvid database, save and untar on folder data
 path = untar_data(URLs.CAMVID,dest="./dataset/")
+print(path)
 path_lbl = path/'labels'
 path_img = path/'images'
 #CLASS LABELS
