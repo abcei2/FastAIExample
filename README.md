@@ -72,8 +72,8 @@ For test is need atleast 2 GB of GPU and 4 of ram memory.  Inference works with 
 The folder where the images and labels should be place:
 
 dataset/{dataset_name}/  
---images/   
-----models/ 
+--images/  
+----models/   
 ----0001.jpg  
 ----0002.jpg  
 ----0003.jpg    
