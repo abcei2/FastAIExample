@@ -1,4 +1,4 @@
-# Custom_Train_MaskRCNN
+# FastAIExample
 
 Training on custom dataset with Unet+Resnet using FastAI library
 
