@@ -74,14 +74,14 @@ The folder where the images and labels should be place:
 dataset/{dataset_name}/  
 --images/  
 ----models/   
-----0001.jpg  
-----0002.jpg  
-----0003.jpg    
+----0001.png  
+----0002.png  
+----0003.png    
 ----...  
 --labels/  
-----0001P.jpg  
-----0002P.jpg  
-----0003P.jpg   
+----0001P.png  
+----0002P.png  
+----0003P.png   
 ----...  
   
 Where **images** are the original frame image and **labels** the masked images, which each object maps a pixel level, ej; to train 3 objects like person, car and bike, each image must have respectively the gray level of; 1,2,3, and the rest of the image are the backgroud labeled as 0.
