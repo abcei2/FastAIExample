@@ -70,6 +70,7 @@ For test is need atleast 2 GB of GPU and 4 of ram memory.  Inference works with 
 ### Dataset
 
 The folder where the images and labels should be place:
+**IMAGES MUST BE IN PNG FORMAT!!! VERY IMPORTANT**
 
 dataset/{dataset_name}/  
 --images/  
